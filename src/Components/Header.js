@@ -28,10 +28,10 @@ const Header = () => {
                     </div>
                     <div className="nav-items hidden text-slate-300 text-sm space-x-8 items-center pl-10 pr-24  lg:pr-56 lg:pl-20 lg:flex">
                         
-                        <Link to='/'className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">HOME</Link>
-                        <Link to='/destination' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">DESTINATION</Link>
-                        <Link to='/crew' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">CREW</Link>
-                        <Link to='/technology' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">TECHNOLOGY</Link>
+                        <Link to='/space-tourism-website'className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">HOME</Link>
+                        <Link to='/space-tourism-website/destination' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">DESTINATION</Link>
+                        <Link to='/space-tourism-website/crew' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">CREW</Link>
+                        <Link to='/space-tourism-website/technology' className="text-xs text-gray-300 hover:border-b hover:border-gray-100 py-4">TECHNOLOGY</Link>
                     </div>
                     <div className="lg:hidden cursor-pointer" onClick={openMenu}>
                          {
@@ -46,10 +46,10 @@ const Header = () => {
                     }
                     </div>
                         <div className="menu absolute left-[-100%]  z-50 flex flex-col p-10 bg-white w-80 pt-20 rounded-md top-40 lg:hidden">
-                        <Link to='/'className="listitem hover:border-b border-slate-300 py-4 font-bold">00 Home</Link>
-                        <Link to='/destination' className="listitem hover:border-b border-slate-300 py-4 font-bold">01 Destination</Link>
-                        <Link to='/crew' className="listitem hover:border-b border-slate-300 py-4 font-bold">02 Crew</Link>
-                        <Link to='/technology' className="listitem hover:border-b border-slate-300 py-4 font-bold">03 Technology</Link>
+                        <Link to='/space-tourism-website'className="listitem hover:border-b border-slate-300 py-4 font-bold">00 Home</Link>
+                        <Link to='/space-tourism-website/destination' className="listitem hover:border-b border-slate-300 py-4 font-bold">01 Destination</Link>
+                        <Link to='/space-tourism-website/crew' className="listitem hover:border-b border-slate-300 py-4 font-bold">02 Crew</Link>
+                        <Link to='/space-tourism-website/technology' className="listitem hover:border-b border-slate-300 py-4 font-bold">03 Technology</Link>
                         </div>
                 </div>
             </div>
